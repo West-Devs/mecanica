@@ -11,6 +11,10 @@
     box-shadow: 0rem 0.1rem 0.3rem #666666;   
 }
 
+.section-about {
+    margin-bottom: 15rem;
+}
+
 .container-about{
     padding: 15px; 
     display: flex;
