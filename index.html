@@ -4,15 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mecânico</title>
+
     <link rel="stylesheet" type="text/css" href="./content/Styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="./content/Styles/services.css">
+    <link rel="stylesheet" type="text/css" href="./content/Styles/commom.css">
+    <link rel="stylesheet" type="text/css" href="./content/Styles/header.css">
+    <link rel="stylesheet" type="text/css" href="./content/Styles/footer.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script src="./content/Scripts/scripts.js"></script>
 </head>
 <body>
-    <iframe src="./content/View/header.html" frameborder="0" class="header-iframe">
-    </iframe>
+    <header class="header">
+      <nav>
+        <h1 class="header-title">AUTOFÁBIO</h1>
+        <ul class="header-menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#diferencial">Nosso diferencial</a></li>
+          <li><a href="#section5">Nosso time</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
         <main>
-            <section class="main-content">
+            <section id="inicio" class="main-content">
                 <div class="main-content-container">
                     <div class="title-container">
                         <h1 class="title">
@@ -23,9 +40,94 @@
                         <p class="desc">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque pariatur nihil eveniet suscipit earum inventore corrupti voluptatum voluptatibus quasi unde accusamus, sit ipsa dolore quae deserunt magnam iusto. Laboriosam, necessitatibus.
                         </p>
-                        <button type="button" id="botao" class="access-button">
-                            Saiba mais
-                        </button>
+                        <a href="#sobre">
+                            <button type="button" id="botao" class="access-button">
+                                Saiba mais
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="services" class="services">
+                <div class="services-container">
+                    <div class="title-container">
+                        <h1 class="title">
+                            Serviços
+                        </h1>
+                    </div>
+                    <div class="services-row">
+                        <ul>
+                            <li>
+                                <div class="icon-service">
+                                    <i class="fa fa-tools"></i>
+                                </div>
+                                <h3>Serviço de manutenção preventiva</h3>
+                                <div class="service-desc">
+                                    <p>
+                                        Inspeção geral do veículo, incluindo troca de óleo, filtro de ar, filtro de combustível, fluidos e outras peças de desgaste natural
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-service">
+                                    <i class="fa fa-balance-scale"></i>
+                                </div>
+                                <h3>Alinhamento e balanceamento</h3>
+                                <div class="service-desc">
+                                    <p>
+                                        Serviço de alinhamento e balanceamento de rodas para manter o carro dirigindo suavemente e reduzir o desgaste de pneus
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-service">
+                                    <i class="fa fa-paint-roller"></i>
+                                </div>
+                                <h3>Serviço de pintura automotiva</h3>
+                                <div class="service-desc">
+                                    <p>
+                                        Reparo e pintura de partes danificadas ou desgastadas da carroceria do veículo. Isso inclui todo o acabamento necessário
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="services-row">
+                        <ul>
+                            <li>
+                                <div class="icon-service">
+                                    <i class="fa fa-cogs"></i>
+                                </div>
+                                <h3>Diagnóstico de motor</h3>
+                                <div class="service-desc">
+                                    <p>
+                                        Serviço de diagnóstico de motor para identificar problemas e falhas no motor
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-service">
+                                    <i class="fa fa-wrench"></i>
+                                </div>
+                                <h3>Troca de pneus</h3>
+                                <div class="service-desc">
+                                    <p>
+                                        Substituição de pneus desgastados ou danificados por novos
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-service">
+                                    <i class="fa fa-snowflake"></i>
+                                </div>
+                                <h3>Ar-condicionado</h3>
+                                <div class="service-desc">
+                                    <p>
+                                        Reparo e manutenção do sistema de ar-condicionado do carro
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </section>
@@ -60,6 +162,13 @@
                 </div>
             </section>
         </main>
-    <iframe src="./content/View/footer.html" frameborder="0" class="footer-iframe"></iframe>
+        <footer class="footer">
+            <div class="footer-container">
+                <p>Autofábio ©</p>
+                <div class="contact-container">
+                    <a href="https://api.whatsapp.com/send?phone=459999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>

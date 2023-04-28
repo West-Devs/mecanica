@@ -1,20 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-body {
-    background-color: #fff;
-}
-
-:root {
---primary-color: #604cdb;
---secondary-color: #f7ff0a;
-}
+@import url("common.css");
 
 .header {
-    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
 }
 
 .header nav{
@@ -46,20 +36,15 @@ body {
     display: block;
     cursor: pointer;
     margin-left: 1rem;
+}
+
+.header-menu li a {
+    text-decoration: none;
     color: white;
     transition: all 0.5s;
 }
 
-.header-menu li:hover {
-    color: var(--secondary-color);
-}
-
-li {
-    position: relative;
-    display: inline-block;
-}
-
-li:after {
+.header-menu li:after {
 content: "";
 position: absolute;
 left:0;
@@ -70,6 +55,6 @@ background-color: var(--secondary-color);
 transition: width .3s ease-in-out;
 }
 
-li:hover:after {
+.header-menu  li:hover:after {
 width: 100%;
 }
