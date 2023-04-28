@@ -42,8 +42,8 @@
 .container-about button{
     text-align: center;
     border: 1px; 
-    padding: 10px; /*tamanho do botão, 10px é referente altura e 15px referente a largura*/
-    border-radius: 3px; /*deixa as bordas do botão arredondada*/
+    padding: 10px;
+    border-radius: 3px;
     background-color: var(--primary-color);
     color: white;
     font-weight: bold;
