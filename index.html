@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,17 +11,174 @@
     <link rel="stylesheet" type="text/css" href="./content/Styles/commom.css">
     <link rel="stylesheet" type="text/css" href="./content/Styles/header.css">
     <link rel="stylesheet" type="text/css" href="./content/Styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="./content/Styles/diferencial.css">
     <link rel="stylesheet" href="./content/Styles/about.css">
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script src="./content/Scripts/scripts.js"></script>
 </head>
+
 <body>
-    <header class="header">        
+    <header class="header">       
         <nav>
             <h1 class="header-title">AUTOFÁBIO</h1>
             <ul class="header-menu">
                 <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#diferencial">Nosso diferencial</a></li>
+                <li><a href="#section5">Nosso time</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="main-content">
+            <div class="main-content-container">
+                <div class="title-container">
+                    <h1 class="title">
+                        Título
+                    </h1>
+                </div>
+                <div class="desc-container">
+                    <p class="desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque pariatur nihil eveniet suscipit
+                        earum inventore corrupti voluptatum voluptatibus quasi unde accusamus, sit ipsa dolore quae
+                        deserunt magnam iusto. Laboriosam, necessitatibus.
+                    </p>
+                    <a href="#sobre">
+                        <button type="button" id="botao" class="access-button">
+                            Saiba mais
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="services-container">
+                <div class="title-container">
+                    <h1 class="title">
+                        Serviços
+                    </h1>
+                </div>
+                <div class="services-row">
+                    <ul>
+                        <li>
+                            <div class="icon-service">
+                                <i class="fa fa-tools"></i>
+                            </div>
+                            <h3>Serviço de manutenção preventiva</h3>
+                            <div class="service-desc">
+                                <p>
+                                    Inspeção geral do veículo, incluindo troca de óleo, filtro de ar, filtro de
+                                    combustível, fluidos e outras peças de desgaste natural
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-service">
+                                <i class="fa fa-balance-scale"></i>
+                            </div>
+                            <h3>Alinhamento e balanceamento</h3>
+                            <div class="service-desc">
+                                <p>
+                                    Serviço de alinhamento e balanceamento de rodas para manter o carro dirigindo
+                                    suavemente e reduzir o desgaste de pneus
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-service">
+                                <i class="fa fa-paint-roller"></i>
+                            </div>
+                            <h3>Serviço de pintura automotiva</h3>
+                            <div class="service-desc">
+                                <p>
+                                    Reparo e pintura de partes danificadas ou desgastadas da carroceria do veículo. Isso
+                                    inclui todo o acabamento necessário
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="services-row">
+                    <ul>
+                        <li>
+                            <div class="icon-service">
+                                <i class="fa fa-cogs"></i>
+                            </div>
+                            <h3>Diagnóstico de motor</h3>
+                            <div class="service-desc">
+                                <p>
+                                    Serviço de diagnóstico de motor para identificar problemas e falhas no motor
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-service">
+                                <i class="fa fa-wrench"></i>
+                            </div>
+                            <h3>Troca de pneus</h3>
+                            <div class="service-desc">
+                                <p>
+                                    Substituição de pneus desgastados ou danificados por novos
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-service">
+                                <i class="fa fa-snowflake"></i>
+                            </div>
+                            <h3>Ar-condicionado</h3>
+                            <div class="service-desc">
+                                <p>
+                                    Reparo e manutenção do sistema de ar-condicionado do carro
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="diferencial" id="diferencial">
+                <h1>Por que nos escolher?</h1>
+                <div class="grid">
+                    <div class="cell">
+                        <img src="./content/imgs/gear.png" alt="Engrenagem">
+                        <div>
+                            <h2>Qualidade dos Serviços</h2>
+                            <p>
+                                Oferecemos serviços de alta
+                                qualidade, utilizando equipamentos modernos
+                                e técnicas atualizadas para garantir a eficiência e
+                                segurança do seu veículo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <img src="./content/imgs/toolkit.png" alt="Equipe Especializada">
+                        <div>
+                            <h2>Equipe Especializada</h2>
+                            <p>
+                                Contamos com uma equipe de mecânicos
+                                altamente treinados e experientes, capazes de identificar e
+                                solucionar qualquer problema mecânico do seu carro.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <img src="./content/imgs/price.png" alt="Preços">
+                        <div>
+                            <h2>Preços Justos</h2>
+                            <p>
+                                Nós oferecemos preços justos e competitivos,
+                                sem cobrar a mais pelo que não é necessário. Realizamos um diagnóstico preciso e
+                                transparente antes de
+                                realizar qualquer serviço.
+                            </p>
+                        </div>
+=======
                 <li><a href="#section-about">Sobre</a></li>
                 <li><a href="#services">Serviços</a></li>
                 <li><a href="#diferencial">Por que nos escolher?</a></li>
@@ -68,120 +226,82 @@
                             Serviços
                         </h1>
                     </div>
-                    <div class="services-row">
-                        <ul>
-                            <li>
-                                <div class="icon-service">
-                                    <i class="fa fa-tools"></i>
-                                </div>
-                                <h3>Serviço de manutenção preventiva</h3>
-                                <div class="service-desc">
-                                    <p>
-                                        Inspeção geral do veículo, incluindo troca de óleo, filtro de ar, filtro de combustível, fluidos e outras peças de desgaste natural
-                                    </p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon-service">
-                                    <i class="fa fa-balance-scale"></i>
-                                </div>
-                                <h3>Alinhamento e balanceamento</h3>
-                                <div class="service-desc">
-                                    <p>
-                                        Serviço de alinhamento e balanceamento de rodas para manter o carro dirigindo suavemente e reduzir o desgaste de pneus
-                                    </p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon-service">
-                                    <i class="fa fa-paint-roller"></i>
-                                </div>
-                                <h3>Serviço de pintura automotiva</h3>
-                                <div class="service-desc">
-                                    <p>
-                                        Reparo e pintura de partes danificadas ou desgastadas da carroceria do veículo. Isso inclui todo o acabamento necessário
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
+                    <div class="cell">
+                        <img src="./content/imgs/watch.png" alt="Entrega rapida">
+                        <div>
+                            <h2>Agilidade no Atendimento</h2>
+                            <p>
+                                Nosso serviço de atendimento é
+                                rápido e eficiente, agendando seu atendimento e realizando os serviços com agilidade
+                                para que você
+                                possa voltar a rodar com seu carro o quanto antes.
+                            </p>
+                        </div>
                     </div>
-                    <div class="services-row">
-                        <ul>
-                            <li>
-                                <div class="icon-service">
-                                    <i class="fa fa-cogs"></i>
-                                </div>
-                                <h3>Diagnóstico de motor</h3>
-                                <div class="service-desc">
-                                    <p>
-                                        Serviço de diagnóstico de motor para identificar problemas e falhas no motor
-                                    </p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon-service">
-                                    <i class="fa fa-wrench"></i>
-                                </div>
-                                <h3>Troca de pneus</h3>
-                                <div class="service-desc">
-                                    <p>
-                                        Substituição de pneus desgastados ou danificados por novos
-                                    </p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon-service">
-                                    <i class="fa fa-snowflake"></i>
-                                </div>
-                                <h3>Ar-condicionado</h3>
-                                <div class="service-desc">
-                                    <p>
-                                        Reparo e manutenção do sistema de ar-condicionado do carro
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
+                    <div class="cell">
+                        <img src="./content/imgs/list.png" alt="Lista de serviços">
+                        <div>
+                            <h2>Variedade de Serviços</h2>
+                            <p>
+                                Oferecemos uma ampla variedade de
+                                serviços, desde manutenção preventiva até reparos complexos, para atender às
+                                necessidades de diversos
+                                modelos de veículos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <img src="./content/imgs/liked.png" alt="Cliente satisfeito">
+                        <div>
+                            <h2>Satisfação Garantida</h2>
+                            <p>
+                                Nosso compromisso é com a satisfação do cliente. Garantimos um serviço
+                                de qualidade e estamos sempre prontos a ouvir suas sugestões e críticas
+                                para aprimorar ainda mais nossos serviços.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <section id="section5">
-                <div class="title-container5">
-                    <h2 class="title">
-                        Nosso Time
-                    </h2>
-                </div>
-                <div id="container5">
-                    <div class="card1">
-                         <img class="mecanico5" src="./content/imgs/carlos.avif" alt="carlos">
-                         <div class="formato5">
+        </section>
+        <section id="section5">
+            <div class="title-container5">
+                <h2 class="title">
+                    Nosso Time
+                </h2>
+            </div>
+            <div id="container5">
+                <div class="card1">
+                    <img class="mecanico5" src="./content/imgs/carlos.avif" alt="carlos">
+                    <div class="formato5">
                         <h3>Carlos Santos</h3>
                         <div>Mecânico</div>
-                         </div>
-                    </div> 
-                    <div class="card1"> 
-                        <img class="mecanico5" src="./content/imgs/jose4.jpg" alt="jose">
-                        <div class="formato5">
-                            <h3>Jose Silva</h3>
-                            <div>Mecânico</div>
-                             </div>
-                    </div> 
-                    <div class="card1"> 
-                        <img class="mecanico5" src="./content/imgs/hiago4.jpg" alt="hiago">
-                        <div class="formato5">
-                            <h3>Hiago Rocha</h3>
-                            <div>Mecânico</div>
-                             </div>
-                    </div> 
+                    </div>
                 </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="footer-container">
-                <p>Autofábio ©</p>
-                <div class="contact-container">
-                    <a href="https://api.whatsapp.com/send?phone=459999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <div class="card1">
+                    <img class="mecanico5" src="./content/imgs/jose4.jpg" alt="jose">
+                    <div class="formato5">
+                        <h3>Jose Silva</h3>
+                        <div>Mecânico</div>
+                    </div>
+                </div>
+                <div class="card1">
+                    <img class="mecanico5" src="./content/imgs/hiago4.jpg" alt="hiago">
+                    <div class="formato5">
+                        <h3>Hiago Rocha</h3>
+                        <div>Mecânico</div>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>Autofábio ©</p>
+            <div class="contact-container">
+                <a href="https://api.whatsapp.com/send?phone=459999999" target="_blank"><i
+                        class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
