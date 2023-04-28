@@ -1,0 +1,49 @@
+.diferencial{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.diferencial h1 {
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cell img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.cell h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-style: normal;
+}
+
+.cell p {
+    line-height: 1.5;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
